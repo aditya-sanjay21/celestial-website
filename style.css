@@ -43,6 +43,7 @@ body {
   color: black;
   display: flex;
 }
+
 .text:hover {
   color: #d6d5f8;
 }
@@ -51,6 +52,7 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
 .text a:hover {
   color: #5b45f5;
   text-shadow: 0 0 8px rgba(115, 103, 240, 0.5);
@@ -119,18 +121,20 @@ body {
   border-radius: 50px;
 }
 
-#login a{
+#login a {
   color: black;
 }
 
 #login:hover {
   background-color: #d6d5f8;
 }
+
 #try {
   background-color: #dfddfb;
   padding: 10px 20px;
   color: black;
 }
+
 #try:hover {
   background-color: #d6d5f8;
 }
@@ -143,7 +147,6 @@ body {
 #page1 {
   height: 85vh;
   width: 100%;
-  /* background-color: #f8f9fa; */
 }
 
 #strip {
@@ -155,13 +158,16 @@ body {
   display: flex;
   justify-content: center;
 }
+
 #strip p {
   font-weight: bold;
 }
+
 #strip u {
   margin: 20px;
   font-weight: lighter;
 }
+
 #content {
   width: 100%;
   height: 76%;
@@ -171,18 +177,21 @@ body {
   justify-content: center;
   justify-content: space-around;
 }
+
 #box1 {
   height: 92.5%;
   width: 50%;
 
   margin: 20px;
 }
+
 #box1 p {
   font-size: x-large;
   margin: 10px;
   font-weight: lighter;
   margin: 30px 20px;
 }
+
 #box1 h1 {
   font-weight: 600;
   color: rgb(0, 0, 80);
@@ -192,7 +201,6 @@ body {
 
 #box1 span {
   color: #231db6;
-  
 }
 
 #btns {
@@ -208,6 +216,7 @@ body {
   width: 23%;
   border-radius: 5px;
 }
+
 #btn1:hover {
   background-color: #d6d5f8;
 }
@@ -236,6 +245,7 @@ body {
   margin: 20px;
   border-radius: 7.5%;
 }
+
 #box2 img {
   object-fit: cover;
   height: 100%;
@@ -256,6 +266,7 @@ body {
   height: 20%;
   width: 100%;
   background-color: red;
+
   .overlay {
     left: 0;
     right: 0%;
@@ -275,14 +286,17 @@ body {
 
   display: flex;
 }
+
 #boxx1 {
   height: 100%;
   width: 60%;
 }
+
 #boxx1 h1 {
   margin: 20px;
   padding: 20px;
 }
+
 #boxx1 p {
   margin: 30px 10px;
   padding: 30px;
@@ -290,6 +304,7 @@ body {
 
   font-weight: lighter;
 }
+
 #boxx1 h3 {
   margin: 30px;
   padding: 20px;
@@ -298,6 +313,7 @@ body {
   text-align: center;
   border-radius: 6%;
 }
+
 #boxx1 h3:hover {
   color: black;
   background-color: #d6d5f8;
@@ -307,67 +323,82 @@ body {
   height: 100%;
   width: 40%;
 }
+
 #boxx2 img {
   height: 100%;
   width: 100%;
 }
+
 .area2 {
   height: 40%;
   width: 100%;
 }
+
 #monolog {
   height: 20%;
   width: 100%;
 }
+
 #monolog h1 {
   margin-left: 30px;
 }
+
 .photos {
   height: 80%;
   width: 100%;
 
   display: flex;
 }
+
 #photo1 {
   height: 100%;
   width: 20%;
 }
+
 #photo1 img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
+
 #photo2 {
   height: 100%;
   width: 20%;
 }
+
 #photo2 img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
+
 #photo3 {
   height: 100%;
   width: 20%;
 }
+
 #photo3 img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
+
 #photo4 {
   height: 100%;
   width: 20%;
 }
+
 #photo4 img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
+
 #photo5 {
   height: 100%;
   width: 20%;
 }
+
 #photo5 img {
   object-fit: cover;
   height: 100%;
@@ -379,15 +410,18 @@ body {
   width: 100%;
   background-color: #f8f9fa;
 }
+
 #section1 {
   height: 30%;
   width: 100%;
 
   text-align: center;
 }
+
 #section1 h1 {
   font-size: 70px;
 }
+
 #section1 h3 {
   font-size: 30px;
   margin: 10px;
@@ -403,6 +437,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
   background-color: #eae8de;
   height: 80%;
@@ -515,18 +550,20 @@ body {
   height: 15%;
   width: 100%;
   font-size: 25px;
-  
 
   align-content: center;
   text-align: center;
 }
-#page4header span{
-  color: #231DB6;
+
+#page4header span {
+  color: #231db6;
 }
+
 #page4courses {
   height: 85%;
   width: 100%;
 }
+
 .p4cards {
   height: 50%;
   width: 100%;
@@ -535,17 +572,15 @@ body {
   gap: 30px;
   justify-content: center;
   flex: wrap;
-  
-
 }
+
 #p4card1 {
   height: 90%;
   width: 25%;
-  /* background-color: rgb(255, 248, 239); */
-  background-color: #D6D5F8;
+
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
- 
 }
 
 #ai {
@@ -559,11 +594,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #aidescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #aidescription ul {
   margin-left: 20px;
   display: flex;
@@ -574,7 +611,7 @@ body {
 #p4card2 {
   height: 90%;
   width: 25%;
-  background-color: #D6D5F8;
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
 }
@@ -590,11 +627,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #dsdescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #dsdescription ul {
   margin-left: 20px;
   display: flex;
@@ -605,10 +644,11 @@ body {
 #p4card3 {
   height: 90%;
   width: 25%;
- background-color: #D6D5F8;
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
 }
+
 #cst {
   height: 70%;
   width: 100%;
@@ -620,11 +660,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #cstdescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #cstdescription ul {
   margin-left: 20px;
   display: flex;
@@ -644,10 +686,11 @@ body {
 #p4card4 {
   height: 90%;
   width: 25%;
-  background-color: #D6D5F8;
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
 }
+
 #ml {
   height: 70%;
   width: 100%;
@@ -659,11 +702,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #mldescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #mldescription ul {
   margin-left: 20px;
   display: flex;
@@ -674,10 +719,11 @@ body {
 #p4card5 {
   height: 90%;
   width: 25%;
-  background-color: #D6D5F8;
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
 }
+
 #blc {
   height: 70%;
   width: 100%;
@@ -689,11 +735,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #blcdescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #blcdescription ul {
   margin-left: 20px;
   display: flex;
@@ -704,7 +752,7 @@ body {
 #p4card6 {
   height: 90%;
   width: 25%;
- background-color: #D6D5F8;
+  background-color: #d6d5f8;
   border-radius: 10px;
   border: 1px solid white;
 }
@@ -720,11 +768,13 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
 #gpadescription p {
   margin-left: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
 #gpadescription ul {
   margin-left: 20px;
   display: flex;
@@ -738,10 +788,12 @@ body {
 
   display: flex;
 }
+
 #pg5left {
   height: 100%;
   width: 50%;
 }
+
 #pg5left img {
   height: 100%;
   width: 100%;
@@ -872,24 +924,23 @@ button:hover {
 #pg6right {
   height: 100%;
   width: 50%;
-  /* background-color: blue; */
 }
+
 #pg6right img {
-  /* margin-top: 10%; */
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-/* 🌌 Page7 - AI Career Section */
 #page7 {
   height: 85%;
   width: 100%;
-  /* background-color: blue; */
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .ai-career {
   background-color: #1b1c25;
   color: #fff;
@@ -899,7 +950,7 @@ button:hover {
   align-items: center;
   border-radius: 20px;
   margin: 50px auto;
-  /* background-color: red; */
+
   height: 80%;
   width: 85%;
 }
@@ -912,7 +963,6 @@ button:hover {
   gap: 40px;
   max-width: 1200px;
   width: 100%;
-  /* background-color: red; */
 }
 
 .hero-left {
@@ -992,8 +1042,6 @@ button:hover {
   display: block;
 }
 
-
-
 #pageendfooter {
   height: 13%;
   width: 100%;
@@ -1009,6 +1057,7 @@ button:hover {
   font-size: larger;
   margin-bottom: 10px;
 }
+
 #pageendfooter p1 {
   color: white;
   font-size: larger;
@@ -1525,5 +1574,3 @@ button:hover {
     height: 250px;
   }
 }
-
-
