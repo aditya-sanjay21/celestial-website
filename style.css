@@ -1054,13 +1054,13 @@ button:hover {
 
 #pageendfooter p {
   color: white;
-  font-size: larger;
   margin-bottom: 10px;
+  font-size: 1.1rem;
 }
 
 #pageendfooter p1 {
   color: white;
-  font-size: larger;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
