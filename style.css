@@ -1574,3 +1574,10 @@ button:hover {
     height: 250px;
   }
 }
+
+@media screen and (max-width: 500px) {
+
+  .img-card{
+    display: none;
+  }
+}
